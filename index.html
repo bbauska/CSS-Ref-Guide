@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of CSS-Ref-Guide ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ making css-ref-guide.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for css-ref-guide.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
@@ -79,10 +79,10 @@
       }
     }
 
-  // when the user clicks on the button, scroll to the table of contents near top of document.
-  function topFunction() {
-    document.getElementById('table-of-contents').scrollIntoView();
-  }
+    <!-- when the user clicks on the button, scroll to the table of contents near top of document. -->
+    function topFunction() {
+      document.getElementById('table-of-contents').scrollIntoView();
+    }
   </script>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1 style="text-align:center;">CSS3 Reference Guide</h1>
@@ -91,7 +91,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. css reference guide logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
   <img class="displayed"
-  src="/images/image000.png?raw=true"
+  src="/images/image000.webp?raw=true"
   title="CSS3 Reference Guide"
   alt="CSS3 Reference Guide."
   style="width:20%;" />
@@ -347,14 +347,14 @@ block</i>. Figure 1-1 illustrates the structure of a rule.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. rule structure ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image001.png?raw=true"
+  src="/images/image001.webp?raw=true"
   title="Rule structure"
   alt="Rule structure."
   style="width:50%;" />
 </p>
 <!-- image001 rule structure -->
 
-<p style="text-align:center;"><i>Figure 1-1. Rule structure</i></p>
+<p style="text-align:center;"><small><i>Figure 1-1. Rule structure</i></small></p>
 
 <p>On the left side of the rule, we find the selector, which selects the parts of the document to 
 which the rule should be applied. Selectors can stand singly or be grouped as a comma-separated 
@@ -465,14 +465,14 @@ key components of the cascade are specificity and inheritance.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. selector type specificity ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image002.png?raw=true"
+  src="/images/image002.webp?raw=true"
   title="Selector type specificity"
   alt="Selector type specificity."
   style="width:40%;" />
 </p>
 
 <!-- image002 -->
-<p style="text-align:center;"><i>Table 1-1. Selector type specificity</i></p>
+<p style="text-align:center;"><small><i>Table 1-1. Selector type specificity</i></small></p>
 
 <p>Specificity values are cumulative; thus, a selector containing two element identifiers and a 
 class identifier (e.g., div.aside p) has a specificity of 0,0,1,2. Specificity values are sorted 
@@ -534,7 +534,8 @@ browser) are given the same weight as the user agent's default styles (see step 
 <p>Broadly speaking, CSS groups elements into two types: <i>nonreplaced</i> and <i>replaced</i>. 
 Although the types may seem rather abstract, there actually are some profound differences in how 
 the two types of elements are presented. These differences are explored in detail in Chapter 7 of 
-<a href="http://shop.oreilly.com/product/0636920012726.do" target="_blank" rel="noreferrer noopener">
+<a href="http://shop.oreilly.com/product/0636920012726.do" target="_blank" rel="noreferrer noopener" 
+title="CSS: The Definitive Guide, 4th Edition">
 <i>CSS: The</i> <i>Definitive Guide</i>, 4th Edition</a> (O'Reilly).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Nonreplaced Elements</h4>
@@ -614,13 +615,13 @@ the amount of space occupied by an element. Figure 1-2 shows the components of a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. the complete box model ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image003.png?raw=true"
+  src="/images/image003.webp?raw=true"
   title="The complete box model"
   alt="The complete box model."
   style="width:60%;" />
 </p>
 
-<p style="text-align:center;"><i>Figure 1-2. The complete box model</i></p>
+<p style="text-align:center;"><small><i>Figure 1-2. The complete box model</i></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>The following rules apply to an element box:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -671,7 +672,8 @@ boxes</i>. The following rules apply to inline boxes:</p>
 </ul>
 
 <p>There are a few rules even more obscure than those last two; see 
-<a href="http://w3.org/TR/css3-box/#inline-replaced" target="_blank" rel="noreferrer noopener">
+<a href="http://w3.org/TR/css3-box/#inline-replaced" target="_blank" rel="noreferrer noopener" 
+title="The CSS Box model documentation for details">
 the CSS box model documentation</a> for details.</p>
 
 <p>All inline elements have a line-height, which has a great deal to do with how the elements are 
@@ -691,7 +693,7 @@ displayed. The height of a line of text is determined by taking the following fa
 <ul>
   <li>The space taken up by a capital letter M in the given font; otherwise known as the character 
     box. Actual glyphs can be taller or shorter than their em-boxes, as discussed in Chapter 5 of 
-	<a href="http://shop.oreilly.com/product/0636920012726.do">
+	<a href="http://shop.oreilly.com/product/0636920012726.do" title="CSS: The Definitive Guide">
     <i>CSS: The Definitive Guide</i></a>, the value of font-size determines the height of each em-box.
   </li>
 </ul>
@@ -738,13 +740,13 @@ displayed. The height of a line of text is determined by taking the following fa
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. inline layout details ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image004.png?raw=true"
+  src="/images/image004.webp?raw=true"
   title="Inline layout details"
   alt="Inline layout details."
   style="width:50%;" />
 </p>
 
-<p style="text-align:center;"><i>Figure 1-3. Inline layout details</i></p>
+<p style="text-align:center;"><small><i>Figure 1-3. Inline layout details</i></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-9-1">1.9. Floating</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -888,12 +890,12 @@ overflow the flex container. This behavior can be changed using the flex-wrap pr
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. justify and align values ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image005.png?raw=true"
+  src="/images/image005.webp?raw=true"
   title="Justify and align values"
   alt="Justify and align values."
   style="width:50%;" />
 </p>
-<p style="text-align:center;"><i>Figure 1-4. Justify and align values</i></p>
+<p style="text-align:center;"><small><i>Figure 1-4. Justify and align values</i></small></p>
 
 <p>The process of calculating flex sizes is fairly complex. Here's a simplified version of the 
 algorithm:</p>
@@ -921,7 +923,7 @@ algorithm:</p>
 </ol>
 
 <p>Again, this is a simplified version of the actual flex sizing algorithm given in the 
-<a href="https://www.w3.org/TR/css-flexbox-1/#resolve-flexible-lengths">
+<a href="https://www.w3.org/TR/css-flexbox-1/#resolve-flexible-lengths" title="W3C documentation">
 W3C documentation</a>. Consult section 9.7 of the CSS Flexible Box Layout Module Level 1 for
 full details if you want to know more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -966,13 +968,13 @@ All the direct children of the grid container element are grid items.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Grid layout components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image006.png?raw=true"
+  src="/images/image006.webp?raw=true"
   title="Grid layout components"
   alt="Grid layout components."
   style="width:50%;" />
 </p>
 
-<p style="text-align:center;"><i>Figure 1-5. Grid layout components</i></p>
+<p style="text-align:center;"><small><i>Figure 1-5. Grid layout components</i></small></p>
 
 <p>The placement of grid lines can be quite complex, and is accomplished by defining 
 grid track sizes. Between each grid track, a grid line is placed. These lines can be 
@@ -1079,7 +1081,8 @@ strokes, this is the process to find the track sizes:</p>
 
 <p>The details of each step are quite lengthy, and can be found in section 11 of the 
 <a href="https://www.w3.org/TR/css-grid-1/#layout-algorithm" target="_blank" 
-rel="noreferrer noopener">CSS Grid Layout Module Level 1 documentation</a>.</p>
+rel="noreferrer noopener" title="CSS Grid Layout Module Level 1 documentation">
+CSS Grid Layout Module Level 1 documentation</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-13-1">1.13. Table Layout</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1091,13 +1094,13 @@ table. Figure 1-6 illustrates the components of a table.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. Table layout components ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image007.png?raw=true"
+  src="/images/image007.webp?raw=true"
   title="Table layout components"
   alt="Table layout components."
   style="width:50%;" />
 </p>
 
-<p style="text-align:center;"><i>Figure 1-6. Table layout components</i></p>
+<p style="text-align:center;"><small><i>Figure 1-6. Table layout components</i></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Table Arrangement Rules</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1262,13 +1265,13 @@ Figure 1-7. There are strict rules governing which borders will win and which wi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. Collapsing cell borders model ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center">
 <img class="displayed"
-  src="/images/image008.png?raw=true"
+  src="/images/image008.webp?raw=true"
   title="Collapsing cell borders model"
   alt="Collapsing cell borders model."
   style="width:50%;" />
 </p>
 
-<p style="text-align:center;"><i>Figure 1-7. Collapsing cell borders model</i></p>
+<p style="text-align:center;"><small><i>Figure 1-7. Collapsing cell borders model</i></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Vertical Alignment Within Cells</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1403,9 +1406,9 @@ are all equivalent half-opaque red.</p>
 are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, 
 silver, teal, white, and yellow. Browsers generally also recognize the 148 color keywords 
 documented in the <a href="http://www.w3.org/TR/css-color-4/" target="_blank" 
-rel="noreferrer noopener">CSS Color Module Level 4 specification</a>, referred to for 
-historical reasons as "the X11 colors" (though the list does not precisely replicate 
-X11's colors).</p>
+rel="noreferrer noopener" title="CSS Color Module Level 4 specifications">CSS Color Module Level 4 
+specification</a>, referred to for historical reasons as "the X11 colors" (though the list does not 
+precisely replicate X11's colors).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4><i><span class="newFont">currentColor</span></i></h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
