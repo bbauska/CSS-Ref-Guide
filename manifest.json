@@ -1,5 +1,12 @@
 {
- "name": "CSS Reference Guide",
+  "name": "CSS Reference Guide",
+  "short_name": "CSS Guide",
+  "description": "A CSS reference guide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#c3d3e3",
+  "theme_color": "#c3d3e3",
+
  "icons": [
   {
    "src": "\/images/android-icon-36x36.png",
